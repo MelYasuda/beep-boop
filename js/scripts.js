@@ -14,10 +14,9 @@ var beepBoop = function(numberInput){
    numbers.forEach(function(number){
     if (number.includes("0")) {
       numbers.splice(numbers.indexOf(number), 1, 'Beep');
-      }
-    //   else if (number.includes("1")) {
-    //   numbers.splice(i, 1, 'Boop');
-    // }
+      } else if (number.includes("1")) {
+      numbers.splice(numbers.indexOf(number), 1, 'Boop');
+    }
    });
    console.log(numbers);
 
