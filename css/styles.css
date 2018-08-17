@@ -1,6 +1,7 @@
 body {
   background-color: #e3eaf4;
   font-family: 'Russo One', sans-serif;
+  color: #7a7574;
 }
 
 .container {
@@ -23,5 +24,20 @@ label {
 
 h2 {
   text-align: center;
-  font-size: 70px;
+  font-size: 80px;
+}
+
+ul {
+  font-size: 20px;
+}
+
+.form-control {
+  width: 60%;
+  margin-left: 225px;
+  height: 100px;
+}
+
+input {
+    text-align: center;
+    font-size:200%; 
 }
