@@ -3,19 +3,33 @@
   <head>
     <title>Beep Boop</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css"><link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
+      <h2>Beep Boop Game</h2>
       <form id="numberinput">
         <div class="form-group">
-          <label for="number">Enter a number here. </label>
+          <label for="number"><h3>Enter a number here.</h3></label>
           <input id="number" class="form-control" type="text">
         </div>
-        <button type="submit" class="btn">Submit!</button>
+        <button type="submit" class="btn btn-info">Enter</button>
       </form>
+      <div class="result well">
+        <p>This website will give you all the numbers from 0 to the number you enter in the form.<br>
+          Then, it will replace certain numbers with words like below.</p>
+        <ul>
+          <li>Numbers that contain a 0 are replaced (all digits) with "Beep!"</li>
+          <li>Numbers that contain a 1 are replaced (all digits) with "Boop!"</li>
+          <li>Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that."</li>
+        </ul>
+        <p>These exceptions are written from least to most important. <br>
+          The first exception should apply unless the second exception does, and the same with the second and third. <br>
+          So, for example, in your finished program the number 10 should be replaced with "Boop!",<br>
+           and the number 30 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."</p>
+      </div>
 
       <div id="result">
       </div>

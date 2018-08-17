@@ -8,18 +8,18 @@ var beepBoop = function(numberInput){
 
   var numbers = [];
   for (var i = 0; i <= numberInput; i += 1) {
-    numbers.push(i.toString(), " ");
+    numbers.push(i.toString(), " <br>");
    }
 
    numbers.forEach(function(number){
      if (number==="0") {
-      numbers.splice(numbers.indexOf(number), 1, " Beep ");
+      numbers.splice(numbers.indexOf(number), 1, "Beep");
      } else if (parseInt(number) % 3 === 0) {
-      numbers.splice(numbers.indexOf(number), 1, " I'm sorry, Dave. I'm afraid I can't do that. ");
+      numbers.splice(numbers.indexOf(number), 1, "I'm sorry, Dave. I'm afraid I can't do that.");
       } else if (number.includes("1")) {
-      numbers.splice(numbers.indexOf(number), 1, " Boop ");
+      numbers.splice(numbers.indexOf(number), 1, "Boop");
       } else if (number.includes("0")) {
-      numbers.splice(numbers.indexOf(number), 1, " Beep ");
+      numbers.splice(numbers.indexOf(number), 1, "Beep");
       }
    });
 
