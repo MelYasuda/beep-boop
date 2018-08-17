@@ -27,11 +27,8 @@ Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do
 * Program alerts if a number is a negative number
   * Example Input: -5
   * Example Output: ["Please enter a positive number"]
-* Program alerts if a number is a decimal number
-  * Example Input: 6.5
-  * Example Output: ["Please enter a positive number"]
 * Program replaces 0 with "Beep!"
-  * Example Input: 0
+  * Example Input: 0, 20, 40
   * Example Output: ["Beep!"]
 * Program replaces 1 with "Boop!"
   * Example Input: 1, 11, 21, 115
