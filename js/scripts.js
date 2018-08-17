@@ -1,16 +1,18 @@
 // Business logic
 var beepBoop = function(numberInput){
   if (isNaN(numberInput) || isNaN(numberInput)) {
-    alert("put a number");
+    alert("Please enter a number");
   } else if (numberInput < 0 || numberInput < 0){
-    alert("put a positive number");
+    alert("Please enter a positive number");
   }
 
+  // Change numbers to strings and make array (so that you can use .includes on the array)
   var numbers = [];
   for (var i = 0; i <= numberInput; i += 1) {
     numbers.push(i.toString(), " <br>");
    }
 
+  //  Loop through the array and replace the number that matches the condition
    numbers.forEach(function(number){
      if (number==="0") {
       numbers.splice(numbers.indexOf(number), 1, "Beep");
