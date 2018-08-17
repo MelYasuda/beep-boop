@@ -32,7 +32,7 @@ Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do
   * Example Output: ["Beep!"]
 * Program replaces 1 with "Boop!"
   * Example Input: 1, 11, 21, 115
-  * Example Output: ["Beep!"]
+  * Example Output: ["Boop!"]
 * Program replaces 3 with "I'm sorry, Dave. I'm afraid I can't do that."
   * Example Input: 3, 23, 53, 323
   * Example Output: ["I'm sorry, Dave. I'm afraid I can't do that."]
